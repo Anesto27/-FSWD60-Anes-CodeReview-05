@@ -1,0 +1,57 @@
+#header {
+        background-color: #000000;
+    }
+
+    #header p {
+        color: white;
+        line-height: 80px;
+        font-size: 2.5em;
+        padding-left: 40px;
+        margin: 0;
+        text-align: center;
+	}
+
+.container{
+	background-color: #161D25;
+	
+}
+
+.navbar{
+	background-color: #434343;
+	border: 1px solid #434343;
+}
+
+.navbar-brand p{
+	color: #EBEBEB;
+	font-size: 1.5em;
+}
+.text{
+	font-size: 2em;
+	color: #CDCECF;
+	text-align: center;
+
+}
+.sort{
+	display: flex;
+	font-size: 1.5em;
+	background-color: #161D25;
+	color: #BCBCBC;
+	border: 1px solid #161D25;
+	}
+
+.glyphicon{
+	font-size: 20pt;
+	color: #BCBCBC;
+}
+
+.black{
+	background-color: #111111;
+
+
+}
+
+.col-lg-5{
+	width: 200px;
+	height: 200px;
+	border: 1px solid white;
+}
