@@ -28,12 +28,16 @@ body{
 .navbar {
     background-color: #434343;
     border: none;
+
 }
-/* change the fontsize and color from the p tag in the navbar*/
-.navbar-brand p {
+
+.navl a{
     color: #EBEBEB;
     font-size: 1.5em;
+
+
 }
+
 /* change the font size and color from the p tag in the row div and set the text in the center*/
 .text {
     font-size: 2em;

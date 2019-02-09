@@ -2,6 +2,8 @@ var selection=[{
 
 "movieName":"Aquaman",
 
+"release":"2018",
+
 "description":"DC Comics’ lord of the seas is getting his own solo feature in 2018’s Aquaman. Jason Momoa will reprise his superhero role from 2016’s Batman v Superman.",
 
 "img": "img/aqua.jpg",
@@ -11,6 +13,8 @@ var selection=[{
 }, {
 
 "movieName":"Spiderman",
+
+"release":"2017",
 
 "description":"Meek, mild-mannered Peter Parker gets bitten by a radioactive spider and gains superpowers. After witnessing a robbery, and in a bout of indifference, letting the thief get away, he learns that the same man mugged and killed his beloved Uncle Ben just moments later.",
 
@@ -22,6 +26,8 @@ var selection=[{
 
 "movieName":"Superman",
 
+"release":"2016",
+
 "description":"Man of Steel is a 2013 superhero film featuring the DC Comics character Superman. It is a British-American venture produced by DC Entertainment",
 
 "img": "img/superman.jpg",
@@ -30,7 +36,9 @@ var selection=[{
 
 }, {
 
-"movieName":"Green Lantern",
+"movieName":"GreenLantern",
+
+"release":"2015",
 
 "description":"Billions of years ago, beings called the Guardians of the Universe use the green essence of willpower to create an intergalactic police force called the Green Lantern Corps.",
 
@@ -42,6 +50,8 @@ var selection=[{
 
 "movieName":"Avengers",
 
+"release":"2014",
+
 "description":"Marvel's The Avengers or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics superhero team of the same name",
 
 "img": "img/avengers.jpg",
@@ -50,7 +60,9 @@ var selection=[{
 
 }, {
 
-"movieName":"Captain Marvel",
+"movieName":"CaptainMarvel",
+
+"release":"2019",
 
 "description":"Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
 
