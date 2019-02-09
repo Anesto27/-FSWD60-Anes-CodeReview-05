@@ -2,17 +2,21 @@ var selection=[{
 
 "movieName":"Aquaman",
 
-"description":"DC Comics’ lord of the seas is getting his own solo feature in 2018’s Aquaman. Jason Momoa will reprise his superhero role from 2016’s Batman v Superman: Dawn of Justice and 2017’s Justice League for the film, and early reviews offer reason to be optimistic about the movie’s arrival.",
+"description":"DC Comics’ lord of the seas is getting his own solo feature in 2018’s Aquaman. Jason Momoa will reprise his superhero role from 2016’s Batman v Superman.",
 
-"img": "img/aqua.jpg"
+"img": "img/aqua.jpg",
+
+"likes":"0"
 
 }, {
 
 "movieName":"Spiderman",
 
-"description":"Meek, mild-mannered Peter Parker gets bitten by a radioactive spider and gains superpowers. After witnessing a robbery, and in a bout of indifference, letting the thief get away, he learns that the same man mugged and killed his beloved Uncle Ben just moments later. There, Peter learns the most valuable lesson he would ever learn: With great power comes great responsibility.",
+"description":"Meek, mild-mannered Peter Parker gets bitten by a radioactive spider and gains superpowers. After witnessing a robbery, and in a bout of indifference, letting the thief get away, he learns that the same man mugged and killed his beloved Uncle Ben just moments later.",
 
-"img": "img/spiderman.jpg"
+"img": "img/spiderman.jpg",
+
+"likes":"0"
 
 }, {
 
@@ -20,7 +24,9 @@ var selection=[{
 
 "description":"Man of Steel is a 2013 superhero film featuring the DC Comics character Superman. It is a British-American venture produced by DC Entertainment",
 
-"img": "img/superman.jpg"
+"img": "img/superman.jpg",
+
+"likes":"0"
 
 }, {
 
@@ -28,7 +34,9 @@ var selection=[{
 
 "description":"Billions of years ago, beings called the Guardians of the Universe use the green essence of willpower to create an intergalactic police force called the Green Lantern Corps.",
 
-"img": "img/green.jpg"
+"img": "img/green.jpg",
+
+"likes":"0",
 
 }, {
 
@@ -36,7 +44,9 @@ var selection=[{
 
 "description":"Marvel's The Avengers or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics superhero team of the same name",
 
-"img": "img/avengers.jpg"
+"img": "img/avengers.jpg",
+
+"likes":"0"
 
 }, {
 
@@ -44,7 +54,9 @@ var selection=[{
 
 "description":"Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
 
-"img": "img/marvel.jpg"
+"img": "img/marvel.jpg",
+
+"likes":"0"
 
 }
 ]

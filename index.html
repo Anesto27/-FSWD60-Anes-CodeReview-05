@@ -4,15 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Movie Factory</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
 </head>
 
-<body>
+<body>	<!-- in the container div we have the whole content inside -->
     <div class="container">
         <div class="row">
             <header id="header" class="">
@@ -23,22 +22,24 @@
             <nav class="navbar navbar-default" role="navigation">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><p>Home</p></a>
+                    <a class="navbar-brand" href="https://codefactory.wien"><p>Home</p></a>
                 </div>
             </nav>
         </div>
         <div class="row">
-            <div class="col-lg-offset-5 col-lg-1">
+            <div class="col-lg-offset-5 col-lg-1 col-md-offset-4 col-md-2">
                 <p class="text">Movies</p>
             </div>
-            <div class="col-lg-1 col-lg-offset-5">
+            <div class="col-lg-1 col-lg-offset-5 col-md-2 col-md-offset-4">
                 <div id="sort">
-                    <button class="sort" data-sort="name"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span><p>Sort</p>
-  					</button>
+                    <button class="sort" data-sort="name"><span class="glyphicon glyphicon-triangle-bottom" style="font-size:30px" aria-hidden="true"></span>
+                        <p>Sort</p>
+                    </button>
                     <ul class="list"></ul>
                 </div>
             </div>
         </div>
+        <!-- first solution doesnt work 
         <div class="row black">
         	<div class="col-lg-5">
         		<div class="content"></div>
@@ -63,6 +64,29 @@
         		<div class="content2"></div>
         	</div>
         </div>
+
+   //Use this HTML structure as append in javascript(myscript.js) 
+
+        <div class="col-lg-5 film row">
+			<div class=" col-lg-5 film-img"><img src="selection.img">
+			</div>
+				<div class="col-lg-7 description"><h2>selection.movieName</h2>
+					<br>
+					<p>selection.description</p></div>
+					<button class="likes thumb">Like <i class="fas fa-thumbs-up"></i></button>
+				</div>
+		</div>	
+    -->
+        <!-- use the content id with javascript/jquery to append/insert the previous div class inside -->
+        <div class="col-lg-12 col-md-12">
+            <div id="content" class="row">
+            </div>
+        </div>
+    
+    <!-- footer part-->
+  	  <footer class="footer">
+      	  <p>Movie Factory</p>
+   	  </footer>
     </div>
     <script src="JSON/film.json"></script>
     <script src="Javascript/myscript.js"></script>
