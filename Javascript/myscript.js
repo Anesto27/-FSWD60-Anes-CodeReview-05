@@ -11,7 +11,7 @@ $(document).ready(function(){
 	for(i=0; i<selection.length; i++){
 //use the Id content to append the div from html and add the json variable with its attributes to get the Image+Movie Name+Description +like numbers
 		$("#content").append(
-			`<div class='col-lg-5 col-md-5 film row'>
+			`<div class='col-lg-5 col-md-5 film row ${selection[i].release}'>
 				<div class=" col-lg-5 col-md-5 film-img"><img src="${selection[i].img}"></div>
 				<div class="col-lg-7 col-md-7 description"><h2>${selection[i].movieName}</h2><p>${selection[i].release}</p><br><p>${selection[i].description}</p></div>
 					<button class="btn" store="thumb_up` + i + `"><h4>Like</h4>
@@ -29,12 +29,12 @@ $(document).ready(function(){
     });
 //year 2019
      $("#year2019").on("click",function(){
-     		var b = $(".marvel");
-     		var c = $(".aquaMan");
-     		var d = $(".spiderMan");
-     		var e = $(".superMan");
-     		var f = $(".greenLantern");
-     		var g = $(".avengers");
+     		var b = $(".2019");
+     		var c = $(".2018");
+     		var d = $(".2017");
+     		var e = $(".2016");
+     		var f = $(".2015");
+     		var g = $(".2014");
      		b.fadeIn(1000);
      		c.fadeOut(1000);
      		d.fadeOut(1000);
@@ -44,12 +44,12 @@ $(document).ready(function(){
      });
      //year 2018
       $("#year2018").on("click",function(){
-     		var b = $(".marvel");
-     		var c = $(".aquaMan");
-     		var d = $(".spiderMan");
-     		var e = $(".superMan");
-     		var f = $(".greenLantern");
-     		var g = $(".avengers");
+     		var b = $(".2019");
+     		var c = $(".2018");
+     		var d = $(".2017");
+     		var e = $(".2016");
+     		var f = $(".2015");
+     		var g = $(".2014");
      		b.fadeOut(1000);
      		c.fadeIn(1000);
      		d.fadeOut(1000);
@@ -59,12 +59,12 @@ $(document).ready(function(){
      });
       //year 2017
       $("#year2017").on("click",function(){
-     		var b = $(".marvel");
-     		var c = $(".aquaMan");
-     		var d = $(".spiderMan");
-     		var e = $(".superMan");
-     		var f = $(".greenLantern");
-     		var g = $(".avengers");
+     		var b = $(".2019");
+     		var c = $(".2018");
+     		var d = $(".2017");
+     		var e = $(".2016");
+     		var f = $(".2015");
+     		var g = $(".2014");
      		b.fadeOut(1000);
      		c.fadeOut(1000);
      		d.fadeIn(1000);
@@ -74,12 +74,12 @@ $(document).ready(function(){
      });
       //year 2016
       $("#year2016").on("click",function(){
-     		var b = $(".marvel");
-     		var c = $(".aquaMan");
-     		var d = $(".spiderMan");
-     		var e = $(".superMan");
-     		var f = $(".greenLantern");
-     		var g = $(".avengers");
+     		var b = $(".2019");
+     		var c = $(".2018");
+     		var d = $(".2017");
+     		var e = $(".2016");
+     		var f = $(".2015");
+     		var g = $(".2014");
      		b.fadeOut(1000);
      		c.fadeOut(1000);
      		d.fadeOut(1000);
@@ -90,12 +90,12 @@ $(document).ready(function(){
 
       //year 2015
       $("#year2015").on("click",function(){
-     		var b = $(".marvel");
-     		var c = $(".aquaMan");
-     		var d = $(".spiderMan");
-     		var e = $(".superMan");
-     		var f = $(".greenLantern");
-     		var g = $(".avengers");
+     		var b = $(".2019");
+     		var c = $(".2018");
+     		var d = $(".2017");
+     		var e = $(".2016");
+     		var f = $(".2015");
+     		var g = $(".2014");
      		b.fadeOut(1000);
      		c.fadeOut(1000);
      		d.fadeOut(1000);
@@ -106,12 +106,12 @@ $(document).ready(function(){
 
       //year 2014
       $("#year2014").on("click",function(){
-     		var b = $(".marvel");
-     		var c = $(".aquaMan");
-     		var d = $(".spiderMan");
-     		var e = $(".superMan");
-     		var f = $(".greenLantern");
-     		var g = $(".avengers");
+     		var b = $(".2019");
+     		var c = $(".2018");
+     		var d = $(".2017");
+     		var e = $(".2016");
+     		var f = $(".2015");
+     		var g = $(".2014");
      		b.fadeOut(1000);
      		c.fadeOut(1000);
      		d.fadeOut(1000);
