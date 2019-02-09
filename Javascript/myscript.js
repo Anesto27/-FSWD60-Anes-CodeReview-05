@@ -27,6 +27,22 @@ $(document).ready(function(){
         thumb_up++;
         $("#" + a).html(thumb_up);
     });
+
+    //All Movies
+     $("#all").on("click",function(){
+     		var b = $(".2019");
+     		var c = $(".2018");
+     		var d = $(".2017");
+     		var e = $(".2016");
+     		var f = $(".2015");
+     		var g = $(".2014");
+     		b.fadeIn(1000);
+     		c.fadeIn(1000);
+     		d.fadeIn(1000);
+     		e.fadeIn(1000);
+     		f.fadeIn(1000);
+     		g.fadeIn(1000);
+     });
 //year 2019
      $("#year2019").on("click",function(){
      		var b = $(".2019");
